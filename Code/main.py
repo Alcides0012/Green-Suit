@@ -5,7 +5,7 @@ pygame.init()
 #General setup
 SCREEN_WIDTH,SCREEN_HEIGHT = 1200,600
 screen = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
-pygame.display.set_caption("Maze Runner")
+pygame.display.set_caption("Green-Suit")
 
 clock = pygame.time.Clock()
 
@@ -20,7 +20,7 @@ while running :
             running =False
 
     #The game!!
-    screen.fill("steelblue4") 
-    pygame.display.update()
+    screen.fill("steelblue") 
+    pygame.display.flip()
 
 pygame.quit()
